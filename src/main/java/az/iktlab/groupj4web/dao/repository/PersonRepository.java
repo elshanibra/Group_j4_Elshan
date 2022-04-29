@@ -1,0 +1,10 @@
+package az.iktlab.groupj4web.dao.repository;
+
+import az.iktlab.groupj4web.dao.entity.PersonEntity;
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PersonRepository extends CrudRepository<PersonEntity, Long> {
+
+}
